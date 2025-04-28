@@ -7,19 +7,17 @@ body {
 
 header {
   background: #005f73;
+  color: #ffffff; /* Set header text to white */
   padding: 2rem 0 1rem 0;
   text-align: center;
 }
 
-/* Ensure header text is visible */
 header h1 {
-  color: #ffffff; /* White, for strong contrast on teal */
-  margin: 0;
-  font-size: 2.5rem;
+  color: #ffffff; /* Explicitly set h1 inside header to white */
+  margin-bottom: 0.5rem;
 }
 
 header .tagline {
-  color: #e0f7fa; /* Lighter shade for the tagline */
   font-size: 1.2rem;
   margin-top: 0.5rem;
 }
@@ -31,7 +29,7 @@ nav {
 }
 
 nav a {
-  color: #fff;
+  color: #ffffff;
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
@@ -50,7 +48,7 @@ section {
   margin-bottom: 2rem;
 }
 
-h1, h2 {
+h2 {
   color: #005f73;
 }
 
